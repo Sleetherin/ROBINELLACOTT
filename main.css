@@ -1,0 +1,52 @@
+*
+{
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: 'Cormorant', serif;
+    overflow: hidden;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Zeyada', cursive;
+}
+
+header h1
+{
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+header nav
+{
+    justify-content: flex-end;
+    padding:1rem;
+}
+
+nav a
+{
+    margin-right: 7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+p
+{
+    font-size:1.5rem;
+}
+
+main section
+{
+    margin: 15% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#robin_photo
+{
+    min-width:300px;
+}
+
