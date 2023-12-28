@@ -9,13 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;1,400&family=Zeyada&display=swap" rel="stylesheet">
     <title>ROBIN ELLACOTT</title>
 </head>
-<body>
+<body id="x">
     <header>
         <h1>ROBIN ELLACOTT</h1>
         <nav>
             <a href="main.html">About Me</a>
-            <a href="investigations.html">Investigations</a>
-            <a href="skills.html">Skills</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
@@ -32,7 +30,15 @@
 
                 </p>
             </article>
-            <img src="robin.jpg" alt="a beautiful strawberry haired girl" id="robin_photo"/>
+            <img src="robin.jpg" alt="a beautiful strawberry haired girl" id="robin_photo" onclick="removeMessage()"/>
+        </section>
+        <p id="message"></p>
+        <section id="favorite">
+          
+            <img id="photo" src="flower.jpg" alt="strike's gift" onclick="messageFlower()">
+            <img id="photo" src="car.jpg" alt="my car" onclick="messageCar()">
+            <img id="photo" src="perfume.jpg" alt="strike's gift when I turned 30" onclick="messagePerfume()"> 
+            <img id="photo" src="rowntree.jpg" alt="family dog" onclick="messageDog()">
         </section>
     </main>
     <footer>Made by Robin♥</footer>

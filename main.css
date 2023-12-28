@@ -4,7 +4,7 @@
     color:white;
     font-size: 16px;
     font-family: 'Cormorant', serif;
-    overflow: hidden;
+    overflow: auto;
 }
 
 header
@@ -12,26 +12,24 @@ header
     display: flex;
     justify-content: space-between;
     font-family: 'Zeyada', cursive;
+    color:white;
 }
 
 header h1
 {
   margin-left: 2rem;
   font-size: 2rem;
+  font-family: 'Zeyada', cursive;
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 500px)
 {
-    header h1 
+    header > h1 
     {
         width:100%;
-        right:0;
     }
 
-    nav{
-       width: 100%; 
-    };
-}
+} */
 
 header nav
 {
@@ -48,7 +46,7 @@ nav a
 
 p
 {
-    font-size:1.5rem;
+    font-size:1.4rem;
 }
 
 main section
@@ -57,15 +55,80 @@ main section
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-right:10%;
+    padding-bottom:5%;
+    padding-top:10%;
+    bottom:0;
 }
 
 main section article
 {
-     width:55%;
+    width:45%;
+    margin-right: 5%;
 }
 
 #robin_photo
 {
-    min-width:300px;
+    border:5px groove #cccccc;
+    border-radius: 10%;
 }
 
+#favorite
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    background-color: #cccccc;
+    padding:1%;
+    margin-bottom:8%;
+}
+
+#photo
+{
+    width:200px;
+    height:250px;
+    border-radius: 15%;
+}
+
+footer 
+{
+  background-color: #cccccc;
+  height:3rem;
+  font-size: 2.6rem;
+  float: end;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  position: fixed; bottom: 0px;  
+  width: 100%;
+  color:black;
+  font-family: 'Zeyada', cursive;
+}
+
+#contact
+{
+    text-align: center;
+    padding-top:15%;
+    padding-bottom: 10%;
+}
+
+button{
+    width:10rem;
+    height:3rem;
+    font-family:'Zeyada', cursive;
+    font-size:1.5rem;
+    border: 1px solid #cccccc;
+}
+
+button:hover
+{
+    background-color: #cccccc;
+    color:black;
+}
+
+#message
+{
+    text-align: center;
+    height:28px;
+    overflow: hidden;
+}
